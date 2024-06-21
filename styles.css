@@ -1,9 +1,10 @@
 body{
     margin: 0;
+    background-color: rgba(128, 128, 128, 0.364);
 }
 :root{
     --bg: #5F4B8BFF;
-    --second: #E69A8DFF;
+    --second: black;
 }
 
 
@@ -12,4 +13,44 @@ body{
     height: 70px;
     width: 100%;
     background-color: var(--bg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav_logo{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.nav_img{
+    height: 80%;
+    width: auto;
+}
+.nav_img_title{
+    font-family: "Roboto";
+    color: var(--second);
+}
+.nav_titles{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.nav_tul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+}
+.nav_tlabel{
+    text-decoration: none;
+    color: var(--second);
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    font-weight: 500;
 }
