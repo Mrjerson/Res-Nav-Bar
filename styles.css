@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+:root{
+    --bg: #5F4B8BFF;
+    --second: #E69A8DFF;
+}
+
+
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: var(--bg);
+}
