@@ -47,10 +47,20 @@ body{
     width: 60%;
     justify-content: space-around;
 }
+.nav_tbg{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
 .nav_tlabel{
     text-decoration: none;
     color: var(--second);
     font-family: "Roboto";
     font-size: 1.2rem;
     font-weight: 500;
+}
+.nav_tbg:hover{
+    background-color: black;
+}
+.nav_tbg:hover .nav_tlabel{
+    color: white;
 }
