@@ -1,10 +1,10 @@
-**Responsive Navbar with Flexbox and Media Queries**
+<h1>**Responsive Navbar with Flexbox and Media Queries**</h1>
 
-_Desktop Mode_
+<p style="margin-bottom: 20px;">_Desktop Mode_</p>
 ![Screenshot 2024-06-22 225357](https://github.com/Mrjerson/Res-Nav-Bar/assets/110077138/e5a41058-7e4f-429b-87a5-826f1d21b7f3)
 
 <br>
-<p style="margin_bottom: 20px;">_Mobile Mode_</p>
+<p style="margin-bottom: 20px;">_Mobile Mode_</p>
 
 ![Screenshot 2024-06-22 225707](https://github.com/Mrjerson/Res-Nav-Bar/assets/110077138/7aedc29c-ab05-44a0-ac26-4a0a49c5ae03)
 
