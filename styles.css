@@ -23,14 +23,12 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    outline: solid black;
 }
 .nav_container_logo{
     height: 100%;   
     display: flex;
     align-items: center;
     flex-direction: row;
-    outline: solid black;
     margin-left: 20px;
 }
 .nav_img{
@@ -43,7 +41,6 @@ body{
 }
 
 .res_container{
-    outline: solid black;
     height: 100%;
     display: none;
     align-items: center;
@@ -51,11 +48,11 @@ body{
 }
 .h_menu{
     height: auto;
-    width: 36px;
+    width: 28px;
 }
 .x_menu{
     height: auto;
-    width: 36px;
+    width: 28px;
     display: none;
 }
 
@@ -71,6 +68,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-right: 20px;
 }
 .nav_tbg{
     padding: 10px 20px;
