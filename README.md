@@ -1,6 +1,7 @@
 <h1>**Responsive Navbar with Flexbox and Media Queries**</h1>
 
 <p style="margin-bottom: 20px;">_Desktop Mode_</p>
+
 ![Screenshot 2024-06-22 225357](https://github.com/Mrjerson/Res-Nav-Bar/assets/110077138/e5a41058-7e4f-429b-87a5-826f1d21b7f3)
 
 <br>
