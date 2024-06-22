@@ -21,9 +21,17 @@ body{
     height: 100%;
     width: 30%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    outline: solid black;
+}
+.nav_container_logo{
+    height: 100%;   
+    display: flex;
     align-items: center;
     flex-direction: row;
+    outline: solid black;
+    margin-left: 20px;
 }
 .nav_img{
     height: 80%;
@@ -33,6 +41,24 @@ body{
     font-family: "Roboto";
     color: var(--second);
 }
+
+.res_container{
+    outline: solid black;
+    height: 100%;
+    display: none;
+    align-items: center;
+    margin-right: 20px;
+}
+.h_menu{
+    height: auto;
+    width: 36px;
+}
+.x_menu{
+    height: auto;
+    width: 36px;
+    display: none;
+}
+
 .nav_titles{
     height: 100%;
     width: 70%;
@@ -44,7 +70,6 @@ body{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    width: 60%;
     justify-content: space-around;
 }
 .nav_tbg{
@@ -63,4 +88,34 @@ body{
 }
 .nav_tbg:hover .nav_tlabel{
     color: white;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 743px) {
+    .res_container{
+        display: flex;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .nav_titles{
+        width: 100%;
+        align-items: start;
+        display: none;
+    }
+    .nav_tul{
+        width: 100%;
+        flex-direction: column;
+        padding: 10px 0px;
+        align-items: center;
+        background-color: var(--bg);
+        margin: 0;
+    }
+    .nav_tbg{
+        width: 80%;
+        text-align: center;
+    }
+    .nav_logo{
+        width: 100%;
+    }
 }
